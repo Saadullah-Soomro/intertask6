@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog - Welcome to Modern Insights</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Dark Mode Toggle -->
+    <input type="checkbox" id="dark-mode-toggle" class="dark-mode-checkbox">
+    
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-brand">
+                <h1 class="logo">BlogSpace</h1>
+            </div>
+            
+            <!-- Mobile Menu Toggle -->
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            
+            <nav class="nav">
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#blog" class="nav-link">Blog</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <label for="dark-mode-toggle" class="dark-mode-label">
+                <span class="dark-mode-icon">🌙</span>
+                <span class="light-mode-icon">☀️</span>
+            </label>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="hero-title">Welcome to My Blog</h1>
+            <p class="hero-subtitle">Discover insights, stories, and perspectives that matter</p>
+            <p class="hero-description">Join thousands of readers exploring technology, design, and life through our carefully curated articles and personal experiences.</p>
+            <a href="#blog" class="hero-cta">Explore Articles</a>
+        </div>
+        <div class="hero-background"></div>
+    </section>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+        <div class="container">
+            <div class="content-wrapper">
+                <!-- Blog Posts Section -->
+                <section class="blog-section" id="blog">
+                    <h2 class="section-title">Latest Articles</h2>
+                    <div class="blog-grid">
+                        <!-- Blog Post 1 -->
+                        <article class="blog-card">
+                            <div class="blog-image">
+                                <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Technology and Innovation" loading="lazy">
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-meta">
+                                    <span class="blog-category">Technology</span>
+                                    <span class="blog-date">Dec 15, 2024</span>
+                                </div>
+                                <h3 class="blog-title">The Future of Web Development: Trends to Watch</h3>
+                                <p class="blog-excerpt">Explore the latest trends shaping the future of web development, from AI integration to progressive web apps and the evolution of user experience design.</p>
+                                <a href="#" class="read-more">Read More</a>
+                            </div>
+                        </article>
+
+                        <!-- Blog Post 2 -->
+                        <article class="blog-card">
+                            <div class="blog-image">
+                                <img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Design and Creativity" loading="lazy">
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-meta">
+                                    <span class="blog-category">Design</span>
+                                    <span class="blog-date">Dec 12, 2024</span>
+                                </div>
+                                <h3 class="blog-title">Minimalist Design: Less is More</h3>
+                                <p class="blog-excerpt">Discover how minimalist design principles can enhance user experience and create more impactful digital products that resonate with modern audiences.</p>
+                                <a href="#" class="read-more">Read More</a>
+                            </div>
+                        </article>
+
+                        <!-- Blog Post 3 -->
+                        <article class="blog-card">
+                            <div class="blog-image">
+                                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Productivity and Lifestyle" loading="lazy">
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-meta">
+                                    <span class="blog-category">Lifestyle</span>
+                                    <span class="blog-date">Dec 10, 2024</span>
+                                </div>
+                                <h3 class="blog-title">Building Better Habits for Remote Work</h3>
+                                <p class="blog-excerpt">Learn effective strategies for maintaining productivity and work-life balance while working remotely, including tips for creating the perfect home office setup.</p>
+                                <a href="#" class="read-more">Read More</a>
+                            </div>
+                        </article>
+
+                        <!-- Blog Post 4 -->
+                        <article class="blog-card">
+                            <div class="blog-image">
+                                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Data and Analytics" loading="lazy">
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-meta">
+                                    <span class="blog-category">Data Science</span>
+                                    <span class="blog-date">Dec 8, 2024</span>
+                                </div>
+                                <h3 class="blog-title">Understanding Data Visualization in 2024</h3>
+                                <p class="blog-excerpt">Master the art of data storytelling with modern visualization techniques that make complex information accessible and engaging for any audience.</p>
+                                <a href="#" class="read-more">Read More</a>
+                            </div>
+                        </article>
+
+                        <!-- Blog Post 5 -->
+                        <article class="blog-card">
+                            <div class="blog-image">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Career Growth" loading="lazy">
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-meta">
+                                    <span class="blog-category">Career</span>
+                                    <span class="blog-date">Dec 5, 2024</span>
+                                </div>
+                                <h3 class="blog-title">Navigating Career Growth in Tech</h3>
+                                <p class="blog-excerpt">Essential insights for advancing your technology career, from building technical skills to developing leadership capabilities and networking effectively.</p>
+                                <a href="#" class="read-more">Read More</a>
+                            </div>
+                        </article>
+
+                        <!-- Blog Post 6 -->
+                        <article class="blog-card">
+                            <div class="blog-image">
+                                <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Health and Wellness" loading="lazy">
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-meta">
+                                    <span class="blog-category">Wellness</span>
+                                    <span class="blog-date">Dec 3, 2024</span>
+                                </div>
+                                <h3 class="blog-title">Digital Wellness: Finding Balance</h3>
+                                <p class="blog-excerpt">Explore practical strategies for maintaining mental health and well-being in our increasingly digital world, including screen time management and mindful technology use.</p>
+                                <a href="#" class="read-more">Read More</a>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                <!-- Sidebar -->
+                <aside class="sidebar">
+                    <!-- Search Box -->
+                    <div class="sidebar-section search-section">
+                        <h3 class="sidebar-title">Search</h3>
+                        <div class="search-box">
+                            <input type="text" placeholder="Search articles..." class="search-input">
+                            <button class="search-button">🔍</button>
+                        </div>
+                    </div>
+
+                    <!-- Categories -->
+                    <div class="sidebar-section categories-section">
+                        <h3 class="sidebar-title">Categories</h3>
+                        <ul class="categories-list">
+                            <li><a href="#" class="category-link">Technology <span class="post-count">(12)</span></a></li>
+                            <li><a href="#" class="category-link">Design <span class="post-count">(8)</span></a></li>
+                            <li><a href="#" class="category-link">Lifestyle <span class="post-count">(15)</span></a></li>
+                            <li><a href="#" class="category-link">Data Science <span class="post-count">(6)</span></a></li>
+                            <li><a href="#" class="category-link">Career <span class="post-count">(9)</span></a></li>
+                            <li><a href="#" class="category-link">Wellness <span class="post-count">(11)</span></a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Recent Posts -->
+                    <div class="sidebar-section recent-posts-section">
+                        <h3 class="sidebar-title">Recent Posts</h3>
+                        <div class="recent-posts">
+                            <article class="recent-post">
+                                <div class="recent-post-image">
+                                    <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Recent post thumbnail">
+                                </div>
+                                <div class="recent-post-content">
+                                    <h4 class="recent-post-title">The Future of Web Development</h4>
+                                    <span class="recent-post-date">Dec 15, 2024</span>
+                                </div>
+                            </article>
+                            
+                            <article class="recent-post">
+                                <div class="recent-post-image">
+                                    <img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Recent post thumbnail">
+                                </div>
+                                <div class="recent-post-content">
+                                    <h4 class="recent-post-title">Minimalist Design: Less is More</h4>
+                                    <span class="recent-post-date">Dec 12, 2024</span>
+                                </div>
+                            </article>
+                            
+                            <article class="recent-post">
+                                <div class="recent-post-image">
+                                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Recent post thumbnail">
+                                </div>
+                                <div class="recent-post-content">
+                                    <h4 class="recent-post-title">Building Better Habits for Remote Work</h4>
+                                    <span class="recent-post-date">Dec 10, 2024</span>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+
+                    <!-- Newsletter Signup -->
+                    <div class="sidebar-section newsletter-section">
+                        <h3 class="sidebar-title">Stay Updated</h3>
+                        <p class="newsletter-description">Get the latest articles delivered straight to your inbox.</p>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Your email address" class="newsletter-input">
+                            <button type="submit" class="newsletter-button">Subscribe</button>
+                        </form>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">BlogSpace</h3>
+                    <p class="footer-description">A modern blog platform sharing insights on technology, design, and life.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">📧</a>
+                        <a href="#" class="social-link">🐦</a>
+                        <a href="#" class="social-link">📺</a>
+                        <a href="#" class="social-link">💼</a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-section-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-link">Home</a></li>
+                        <li><a href="#" class="footer-link">Blog</a></li>
+                        <li><a href="#" class="footer-link">About</a></li>
+                        <li><a href="#" class="footer-link">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-section-title">Categories</h4>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-link">Technology</a></li>
+                        <li><a href="#" class="footer-link">Design</a></li>
+                        <li><a href="#" class="footer-link">Lifestyle</a></li>
+                        <li><a href="#" class="footer-link">Career</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-section-title">Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-link">Privacy Policy</a></li>
+                        <li><a href="#" class="footer-link">Terms of Service</a></li>
+                        <li><a href="#" class="footer-link">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2024 BlogSpace. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
