@@ -36,6 +36,12 @@
                 </ul>
             </nav>
             
+            <!-- Header Search -->
+            <div class="header-search">
+                <input type="text" placeholder="Search..." class="header-search-input" id="headerSearchInput">
+                <button class="header-search-btn" id="headerSearchBtn">🔍</button>
+            </div>
+            
             <label for="dark-mode-toggle" class="dark-mode-label">
                 <span class="dark-mode-icon">🌙</span>
                 <span class="light-mode-icon">☀️</span>
@@ -43,13 +49,24 @@
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero" id="home">
-        <div class="hero-content">
-            <h1 class="hero-title">Welcome to My Blog</h1>
-            <p class="hero-subtitle">Discover insights, stories, and perspectives that matter</p>
-            <p class="hero-description">Join thousands of readers exploring technology, design, and life through our carefully curated articles and personal experiences.</p>
-            <a href="#blog" class="hero-cta">Explore Articles</a>
+    <!-- Hero Section - Featured Post -->
+    <section class="hero featured-post" id="home">
+        <div class="featured-post-content">
+            <div class="featured-post-meta">
+                <span class="featured-badge">Featured Post</span>
+                <span class="featured-category">Technology</span>
+                <span class="featured-date">Dec 20, 2024</span>
+            </div>
+            <h1 class="featured-title">The Evolution of AI in Web Development: Transforming How We Build Digital Experiences</h1>
+            <p class="featured-excerpt">Discover how artificial intelligence is revolutionizing web development, from automated code generation to intelligent user experience optimization. This comprehensive guide explores the cutting-edge tools and techniques that are shaping the future of digital creation.</p>
+            <div class="featured-author">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="Author" class="author-image">
+                <div class="author-info">
+                    <span class="author-name">Sarah Johnson</span>
+                    <span class="read-time">8 min read</span>
+                </div>
+            </div>
+            <a href="#" class="featured-cta">Read Full Article</a>
         </div>
         <div class="hero-background"></div>
     </section>
@@ -284,5 +301,6 @@
             </div>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
